@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UNAMA — Teste Vocacional</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+<a class="skip-link" href="#conteudo">
+    Pular para o conteúdo principal
+</a>
+
+<header class="header">
+
+    <div class="container header-content">
+
+        <a href="../index.html" class="logo">
+            UNAMA
+        </a>
+
+        <nav
+            class="main-nav"
+            aria-label="Navegação principal"
+        >
+            <a href="../index.html">Início</a>
+            <a href="cursos.html">Cursos</a>
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main id="conteudo">
+
+    <section class="page-header">
+
+        <div class="container">
+
+            <span class="eyebrow">
+                Orientação
+            </span>
+
+            <h1>
+                Teste vocacional
+            </h1>
+
+            <p>
+                Responda às perguntas para descobrir áreas que
+                podem combinar com seus interesses.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section class="content-section">
+
+        <div class="container narrow">
+
+            <form id="vocationalForm" class="form-card">
+
+                <fieldset>
+
+                    <legend>
+                        1. Qual atividade você prefere?
+                    </legend>
+
+                    <label class="radio-option">
+                        <input
+                            type="radio"
+                            name="question1"
+                            value="humanas"
+                        >
+                        Trabalhar com pessoas
+                    </label>
+
+                    <label class="radio-option">
+                        <input
+                            type="radio"
+                            name="question1"
+                            value="exatas"
+                        >
+                        Resolver problemas
+                    </label>
+
+                    <label class="radio-option">
+                        <input
+                            type="radio"
+                            name="question1"
+                            value="saude"
+                        >
+                        Cuidar de pessoas
+                    </label>
+
+                </fieldset>
+
+
+                <fieldset>
+
+                    <legend>
+                        2. Qual área mais desperta seu interesse?
+                    </legend>
+
+                    <label class="radio-option">
+                        <input
+                            type="radio"
+                            name="question2"
+                            value="humanas"
+                        >
+                        Comunicação e sociedade
+                    </label>
+
+                    <label class="radio-option">
+                        <input
+                            type="radio"
+                            name="question2"
+                            value="exatas"
+                        >
+                        Tecnologia e matemática
+                    </label>
+
+                    <label class="radio-option">
+                        <input
+                            type="radio"
+                            name="question2"
+                            value="saude"
+                        >
+                        Saúde e bem-estar
+                    </label>
+
+                </fieldset>
+
+
+                <button
+                    type="submit"
+                    class="button button-primary full-width"
+                >
+                    Ver resultado
+                </button>
+
+            </form>
+
+
+            <div
+                id="vocationalResult"
+                class="success-card"
+                hidden
+                tabindex="-1"
+            >
+
+                <h2>
+                    Resultado
+                </h2>
+
+                <p id="resultText"></p>
+
+                <a
+                    href="cursos.html"
+                    class="button button-primary"
+                >
+                    Ver cursos
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="../js/script.js"></script>
+
+</body>
+</html>

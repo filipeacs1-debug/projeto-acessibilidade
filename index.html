@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Protótipo acadêmico acessível do portal de graduação da UNAMA."
+    >
+
+    <title>UNAMA — Encontre seu curso</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<a class="skip-link" href="#conteudo">
+    Pular para o conteúdo principal
+</a>
+
+<header class="header">
+    <div class="container header-content">
+
+        <a href="index.html" class="logo" aria-label="UNAMA - Página inicial">
+            UNAMA
+        </a>
+
+        <button
+            class="menu-button"
+            id="menuButton"
+            type="button"
+            aria-expanded="false"
+            aria-controls="mainMenu"
+        >
+            <span class="sr-only">Abrir menu</span>
+            ☰
+        </button>
+
+        <nav
+            class="main-nav"
+            id="mainMenu"
+            aria-label="Navegação principal"
+        >
+            <a href="index.html">Início</a>
+            <a href="pages/cursos.html">Cursos</a>
+            <a href="#ingresso">Ingresso</a>
+            <a href="#ajuda">Ajuda</a>
+            <a href="pages/login.html" class="nav-login">
+                Área do candidato
+            </a>
+        </nav>
+
+    </div>
+</header>
+
+<main id="conteudo">
+
+    <section class="hero" aria-labelledby="titulo-principal">
+
+        <div class="container hero-grid">
+
+            <div class="hero-content">
+
+                <span class="eyebrow">
+                    Graduação UNAMA
+                </span>
+
+                <h1 id="titulo-principal">
+                    Encontre o curso ideal para você
+                </h1>
+
+                <p>
+                    Pesquise cursos, conheça as modalidades de ensino
+                    e encontre a opção que combina com seus objetivos.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a
+                        href="pages/cursos.html"
+                        class="button button-primary"
+                    >
+                        Buscar cursos
+                    </a>
+
+                    <a
+                        href="pages/teste-vocacional.html"
+                        class="button button-secondary"
+                    >
+                        Fazer teste vocacional
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section
+        class="info-section"
+        id="ingresso"
+        aria-labelledby="titulo-ingresso"
+    >
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    Ingresso
+                </span>
+
+                <h2 id="titulo-ingresso">
+                    Conheça nossas formas de ingresso
+                </h2>
+
+            </div>
+
+            <div class="cards">
+
+                <article class="info-card">
+                    <div class="card-icon" aria-hidden="true">🎓</div>
+
+                    <h3>Vestibular</h3>
+
+                    <p>
+                        Faça sua inscrição e participe do processo seletivo.
+                    </p>
+
+                    <a href="pages/cursos.html" class="text-button">
+                        Saiba mais
+                    </a>
+                </article>
+
+
+                <article class="info-card">
+                    <div class="card-icon" aria-hidden="true">📚</div>
+
+                    <h3>ENEM</h3>
+
+                    <p>
+                        Utilize sua nota do ENEM para ingressar na graduação.
+                    </p>
+
+                    <a href="pages/cursos.html" class="text-button">
+                        Saiba mais
+                    </a>
+                </article>
+
+
+                <article class="info-card">
+                    <div class="card-icon" aria-hidden="true">🔄</div>
+
+                    <h3>Transferência</h3>
+
+                    <p>
+                        Consulte as opções para transferência.
+                    </p>
+
+                    <a href="pages/cursos.html" class="text-button">
+                        Saiba mais
+                    </a>
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section
+        class="faq-section"
+        id="ajuda"
+        aria-labelledby="titulo-ajuda"
+    >
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    Ajuda
+                </span>
+
+                <h2 id="titulo-ajuda">
+                    Perguntas frequentes
+                </h2>
+
+            </div>
+
+
+            <div class="faq">
+
+                <details class="faq-item">
+                    <summary>
+                        Como funciona o processo seletivo?
+                    </summary>
+
+                    <p>
+                        O candidato pode escolher uma das formas de ingresso
+                        disponíveis e seguir as etapas indicadas pela instituição.
+                    </p>
+                </details>
+
+
+                <details class="faq-item">
+                    <summary>
+                        Quais modalidades de ensino são oferecidas?
+                    </summary>
+
+                    <p>
+                        O portal apresenta opções de cursos conforme a modalidade
+                        e a disponibilidade da instituição.
+                    </p>
+                </details>
+
+
+                <details class="faq-item">
+                    <summary>
+                        Como posso acompanhar minha inscrição?
+                    </summary>
+
+                    <p>
+                        O acompanhamento pode ser realizado pela Área do Candidato.
+                    </p>
+                </details>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="container footer-content">
+
+        <div>
+            <strong>UNAMA</strong>
+
+            <p>
+                Protótipo acadêmico de acessibilidade digital.
+            </p>
+        </div>
+
+        <div>
+            <p>
+                Projeto desenvolvido para fins acadêmicos.
+            </p>
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
